@@ -1,2 +1,2 @@
-# top-10-photo-sticks
+Top 10 Photo Sticks
 GitHub Pages
