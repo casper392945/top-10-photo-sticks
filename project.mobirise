@@ -1,0 +1,1822 @@
+{
+  "settings": {
+    "name": "Top 10 Photo Sticks",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.0.5",
+    "siteFonts": [],
+    "uniqCompNum": 8,
+    "versionPublish": "5.0.5"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Top 10 Photo Sticks",
+        "meta_descr": "",
+        "header_custom": "<link href=\"assets/theme/css/2.b31142d4.chunk.css\" rel=\"stylesheet\">\n<link href=\"assets/theme/css/main.342f6337.chunk.css\" rel=\"stylesheet\">",
+        "footer_custom": "<script>!function(e){function r(r){for(var n,i,l=r[0],f=r[1],a=r[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,l=1;l<t.length;l++){var f=t[l];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(e,\"__esModule\",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&\"object\"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,\"default\",{enumerable:!0,value:e}),2&r&&\"string\"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,\"a\",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p=\"/\";var l=this[\"webpackJsonpdrone-review\"]=this[\"webpackJsonpdrone-review\"]||[],f=l.push.bind(l);l.push=r,l=l.slice();for(var a=0;a<l.length;a++)r(l[a]);var p=f;t()}([])</script>\n<script src=\"assets/theme/js/2.04364ec8.chunk.js\"></script>\n<script src=\"assets/theme/js/main.c4b1eb08.chunk.js\"></script>\n",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".header": {
+              "background-color": "#fff",
+              "font-size": "3.5rem",
+              "text-align": "left"
+            },
+            ".header__underline": {
+              "background-color": "#f0f4f8"
+            },
+            ".header__underline-dash": {
+              "height": "0.56rem",
+              "width": "100%",
+              "background-color": "#00aeef"
+            },
+            ".header__title": {
+              "margin": "2.5rem 0",
+              "font-weight": "700"
+            },
+            ".header__top10": {
+              "color": "#fff",
+              "background-color": "#79ae38",
+              "padding": "0.2rem 1rem 0.5rem",
+              "margin": "0 0.5rem"
+            },
+            "@media (max-width: 991.98px)": {
+              ".header": {
+                "font-size": "3rem"
+              }
+            },
+            "@media (max-width: 767.98px)": {
+              ".header": {
+                "font-size": "2.2rem"
+              },
+              ".header__title": {
+                "margin": "2rem 0 1.5rem"
+              },
+              ".header__top10": {
+                "padding": "0.5rem 0.8rem",
+                "margin": "0 0.5rem"
+              }
+            },
+            "*, :after, :before": {
+              "box-sizing": "border-box"
+            },
+            ".container": {
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "margin-right": "auto",
+              "margin-left": "auto"
+            },
+            "@media (min-width: 576px)": {
+              ".container": {
+                "max-width": "540px"
+              }
+            },
+            "@media (min-width: 768px)": {
+              ".container": {
+                "max-width": "720px"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".container": {
+                "max-width": "960px"
+              }
+            },
+            "@media (min-width: 1200px)": {
+              ".container": {
+                "max-width": "1200px"
+              }
+            },
+            ".row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".col": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "flex-basis": "0",
+              "flex-grow": "1",
+              "max-width": "100%"
+            },
+            "@media print": {
+              "*, :after, :before": {
+                "text-shadow": "none !important",
+                "box-shadow": "none !important"
+              },
+              ".container": {
+                "min-width": "992px !important"
+              }
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n<div>\n\t<div class=\"header\">\n\t\t<div class=\"container \">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col header__title\"><span>TOP</span><span class=\"header__top10\">10</span><span>Photo Sticks</span></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"header__underline\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"header__underline-dash\"></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n    </div>\n</section>\n",
+          "_cid": "rY25arxa86",
+          "_anchor": "content4-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".intro": {
+              "margin-top": "1.2em",
+              "margin-bottom": "1.2em",
+              "line-height": "180%"
+            },
+            ".intro__header": {
+              "margin": "1em 0",
+              "font-size": "2em"
+            },
+            "*, :after, :before": {
+              "box-sizing": "border-box"
+            },
+            "h1": {
+              "margin-top": "0",
+              "margin-bottom": "0.5rem",
+              "font-weight": "500",
+              "line-height": "1.2",
+              "font-size": "3rem"
+            },
+            "p": {
+              "margin-top": "0",
+              "margin-bottom": "1rem"
+            },
+            ".row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".col": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "flex-basis": "0",
+              "flex-grow": "1",
+              "max-width": "100%"
+            },
+            "@media print": {
+              "*, :after, :before": {
+                "text-shadow": "none !important",
+                "box-shadow": "none !important"
+              },
+              "p": {
+                "orphans": "3",
+                "widows": "3"
+              }
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n<div class=\"row intro\">\n\t<div class=\"col\">\n\t\t<h1 class=\"intro__header\">TOP 10 Photo Sticks Under $85 in Canada That Will Keep Your Data Safe In The Most Convenient Way</h1>\n\t\t<p>Nowadays everything is increasingly digitalized, but that also means our important information is more vulnerable than ever. On top of time-consuming archiving, we also have to think about how to protect our information from various viruses and malicious hardware, not to mention that no one is safe from their computer crashing unexpectedly. When new files stream into our devices every day, losing all that data can be one of the most stressful things. We try to save our data manually in our computers, and then buy expensive external memory storage to hold all the important information from our laptops. Sounds exhausting! There are other, much faster and safer ways to prevent the disaster - photo sticks! These tiny devices can protect your phone or laptop memory just with a single click, and take up so little space you can carry them everywhere.</p>\n\t\t<p>However, there are so many different options of various photo sticks that choosing the right one might become a real challenge for an inexperienced customer. This is why we have compiled a comprehensible list of TOP 10 photo sticks that you can get under $85 in Canada that are easy to use yet very functional and will let you store your data safer and faster! We rated them and tested them for your convenience - all you have to do is use this list as a guide towards the best photo stick for your needs.</p>\n\t</div>\n</div>\n    </div>\n</section>",
+          "_cid": "rY27dBJWfm",
+          "_anchor": "content4-2",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".price__current": {
+              "color": "#79ae38",
+              "font-weight": "700",
+              "font-size": ".8em"
+            },
+            ".price__old": {
+              "color": "rgba(230, 47, 52, 0.8)",
+              "text-decoration": "none",
+              "font-weight": "700",
+              "position": "relative",
+              "margin": "0 .4em"
+            },
+            ".price__old:before": {
+              "-webkit-transform": "rotate(-12deg)",
+              "transform": "rotate(-12deg)"
+            },
+            ".price__old:after,.price__old:before": {
+              "content": "\" \"",
+              "display": "block",
+              "width": "120%",
+              "border-top": "3px solid rgba(230, 47, 52, 0.7)",
+              "height": ".1em",
+              "position": "absolute",
+              "bottom": ".7em",
+              "left": "-10%"
+            },
+            ".price__old:after": {
+              "-webkit-transform": "rotate(12deg)",
+              "transform": "rotate(12deg)"
+            },
+            ".product": {
+              "background-color": "#fff",
+              "margin-bottom": "3.5rem",
+              "border": "1px solid transparent",
+              "-webkit-transition": "border .1s",
+              "transition": "border .1s"
+            },
+            ".product:hover": {
+              "border": "1px solid rgba(0, 173, 241, 0.8)"
+            },
+            ".product:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "background-color": "transparent",
+              "display": "block",
+              "bottom": "3.5rem",
+              "left": "2rem",
+              "height": "1rem",
+              "width": "calc(100% - 4rem)",
+              "box-shadow": "0 0 2rem rgba(0, 173, 241, 0.3)",
+              "-webkit-transition": "box-shadow 0.25s",
+              "transition": "box-shadow 0.25s",
+              "z-index": "-1"
+            },
+            ".product:hover:after": {
+              "box-shadow": "0 0 2em rgba(0, 173, 241, 0.8)"
+            },
+            ".product__logo": {
+              "border-right": "2px solid #e1e1e1",
+              "padding-right": "0",
+              "min-height": "15em",
+              "text-align": "center"
+            },
+            ".product__logo a": {
+              "position": "relative",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "width": "calc(100% - 1px)",
+              "padding": "1.2em"
+            },
+            ".product__logo a img": {
+              "width": "100%",
+              "max-width": "20em"
+            },
+            ".product__tile": {
+              "text-align": "center",
+              "border-bottom": "2px solid #e1e1e1",
+              "padding-bottom": ".5em"
+            },
+            ".product__tile + .product__tile": {
+              "border-left": "2px solid #e1e1e1"
+            },
+            ".product__tile-label": {
+              "margin-top": "1em",
+              "color": "#bababa",
+              "font-weight": "500"
+            },
+            ".product__visitor-count": {
+              "color": "#bababa",
+              "font-size": ".8em",
+              "font-weight": "300"
+            },
+            ".product__visitor-voted": {
+              "color": "#79ae38",
+              "font-size": ".75em",
+              "font-weight": "300"
+            },
+            ".product__price": {
+              "color": "#79ae38",
+              "font-weight": "700",
+              "font-size": "1.5em",
+              "margin-top": "-0.3em"
+            },
+            ".product__price .price": {
+              "display": "flex",
+              "align-items": "baseline",
+              "justify-content": "center"
+            },
+            ".product__rating": {
+              "text-align": "center",
+              "border-left": "2px solid #e1e1e1",
+              "padding-left": "0"
+            },
+            ".product__rating-number": {
+              "color": "#00aeef",
+              "font-size": "5em",
+              "line-height": "1.1em",
+              "font-weight": "300",
+              "margin-top": ".1em"
+            },
+            ".product__review-link": {
+              "margin-top": ".8em",
+              "margin-bottom": ".8em",
+              "display": "block",
+              "color": "#00aeef",
+              "font-size": "1.1em",
+              "text-decoration": "none",
+              "font-weight": "300"
+            },
+            ".product__review-link:hover": {
+              "color": "#0089bc",
+              "text-decoration": "underline"
+            },
+            ".product__feature-list": {
+              "padding": "2em 1em",
+              "-moz-column-count": "2",
+              "-moz-column-gap": "1em",
+              "-webkit-column-count": "2",
+              "-webkit-column-gap": "1em",
+              "column-count": "2",
+              "grid-column-gap": "1em",
+              "column-gap": "1em",
+              "list-style": "none",
+              "font-size": ".9em"
+            },
+            ".product__feature-list-item": {
+              "position": "relative",
+              "padding-left": "1.8em",
+              "margin-bottom": ".7em"
+            },
+            ".product__feature-list-item:before": {
+              "content": "\"\"",
+              "width": "1.3em",
+              "height": "1.3em",
+              "position": "absolute",
+              "background-size": "90%",
+              "background-image": "url(https://top10photosticks.com/static/media/check-circle.b4dafc68.svg)",
+              "background-repeat": "no-repeat",
+              "left": "0",
+              "top": ".1em"
+            },
+            ".product__feature-list-item--red:before": {
+              "background-image": "url(https://top10photosticks.com/static/media/cross-circle.c0525fd2.svg)"
+            },
+            ".product__ribbon": {
+              "position": "relative",
+              "z-index": "10",
+              "height": "6em"
+            },
+            ".product__ribbon-title": {
+              "font-size": "1.6em",
+              "position": "absolute",
+              "top": "0",
+              "left": ".5em",
+              "color": "#0089bc",
+              "font-weight": "700"
+            },
+            ".product__ribbon-title span": {
+              "font-weight": "700",
+              "font-size": "1.8em",
+              "position": "relative",
+              "top": ".1em"
+            },
+            ".product__ribbon-text": {
+              "color": "#fff",
+              "position": "absolute",
+              "bottom": "-1.5em",
+              "left": "-1.2em",
+              "font-size": "1.4em",
+              "font-weight": "500",
+              "background-color": "#79ae38",
+              "padding": ".5em 1em",
+              "height": "2.4em",
+              "border": "none",
+              "text-shadow": "0.05em 0.05em 2px rgba(0, 0, 0, 0.2)"
+            },
+            ".product__ribbon-text:before": {
+              "content": "\"\"",
+              "display": "block",
+              "position": "absolute",
+              "left": "0",
+              "bottom": "-1.2em",
+              "border-color": "#5e872c #5e872c transparent transparent",
+              "border-style": "solid",
+              "border-width": ".6em",
+              "z-index": "5"
+            },
+            ".product__ribbon-text:after": {
+              "content": "\"\"",
+              "display": "block",
+              "position": "absolute",
+              "bottom": "0",
+              "left": "calc(100% - 1.2em)",
+              "border": "1.2em solid #79ae38",
+              "border-right-color": "transparent",
+              "z-index": "-1"
+            },
+            "@media (max-width: 767.98px)": {
+              ".product": {
+                "border": "none"
+              },
+              ".product__logo": {
+                "border-top": "1px solid #e1e1e1",
+                "border-left": "1px solid #e1e1e1",
+                "border-right": "1px solid #e1e1e1"
+              },
+              ".product__tile": {
+                "border": "none"
+              },
+              ".product__feature-list,.product__tile-group": {
+                "border-top": "1px solid #e1e1e1",
+                "border-left": "1px solid #e1e1e1",
+                "border-right": "1px solid #e1e1e1"
+              },
+              ".product__feature-list": {
+                "margin": "0"
+              },
+              ".product__rating": {
+                "border": "1px solid #e1e1e1"
+              },
+              ".product__ribbon-text": {
+                "left": "0"
+              },
+              ".product__ribbon-text:before": {
+                "display": "none"
+              },
+              ".product__star-adjust": {
+                "margin": "auto",
+                "max-width": "5.5em"
+              },
+              ".product__price .price": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "justify-content": "center"
+              }
+            },
+            "*,:after,:before": {
+              "box-sizing": "border-box"
+            },
+            "ul": {
+              "margin-bottom": "1rem",
+              "margin-top": "0"
+            },
+            "a": {
+              "color": "#007bff",
+              "text-decoration": "none",
+              "background-color": "transparent"
+            },
+            "a:hover": {
+              "color": "#0056b3",
+              "text-decoration": "underline"
+            },
+            "img": {
+              "border-style": "none"
+            },
+            "img,svg": {
+              "vertical-align": "middle"
+            },
+            "svg": {
+              "overflow": "hidden"
+            },
+            "label": {
+              "display": "inline-block",
+              "margin-bottom": ".5rem"
+            },
+            "button": {
+              "border-radius": "0",
+              "margin": "0",
+              "font-family": "inherit",
+              "font-size": "inherit",
+              "line-height": "inherit",
+              "overflow": "visible",
+              "text-transform": "none",
+              "-webkit-appearance": "button"
+            },
+            "button:focus": {
+              "outline": "5px auto -webkit-focus-ring-color"
+            },
+            "button::-moz-focus-inner": {
+              "padding": "0",
+              "border-style": "none"
+            },
+            ".img-fluid": {
+              "max-width": "100%",
+              "height": "auto"
+            },
+            ".row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".no-gutters": {
+              "margin-right": "0",
+              "margin-left": "0"
+            },
+            ".no-gutters > .col,.no-gutters > [class*=col-]": {
+              "padding-right": "0",
+              "padding-left": "0"
+            },
+            ".col,.col-12,.col-md-3,.col-md-6": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px"
+            },
+            ".col": {
+              "flex-basis": "0",
+              "flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".col-12": {
+              "flex": "0 0 100%",
+              "max-width": "100%"
+            },
+            "@media (min-width: 768px)": {
+              ".col-md-3": {
+                "flex": "0 0 25%",
+                "max-width": "25%"
+              },
+              ".col-md-6": {
+                "flex": "0 0 50%",
+                "max-width": "50%"
+              }
+            },
+            "@media print": {
+              "*,:after,:before": {
+                "text-shadow": "none!important",
+                "box-shadow": "none!important"
+              },
+              "a:not(.btn)": {
+                "text-decoration": "underline"
+              },
+              "img": {
+                "page-break-inside": "avoid"
+              }
+            },
+            ".nice-button__purchase--green": {
+              "position": "relative",
+              "display": "inline-block",
+              "border": ".2em solid #8bc53e",
+              "box-shadow": "0 0 3px #6e9f34",
+              "border-radius": "100em",
+              "padding": ".3em 3em .3em 1.2em",
+              "text-decoration": "none",
+              "text-shadow": "0.1em 0.1em 1px rgba(0, 0, 0, 0.2)",
+              "font-size": "1.2em",
+              "font-weight": "500",
+              "color": "#fff",
+              "background-color": "#6e9f34",
+              "background-image": "linear-gradient(180deg, #6e9f34, #7db239)",
+              "-webkit-transition": "0.1s ease-in",
+              "transition": "0.1s ease-in"
+            },
+            ".nice-button__purchase--green:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "width": "1.6em",
+              "height": "1.6em",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "right": ".5em",
+              "color": "#fff",
+              "border-radius": "50%",
+              "border": ".18em solid #fff",
+              "background-position": "50%,50%",
+              "background-repeat": "no-repeat",
+              "background-size": "60%,cover",
+              "background-image": "url(https://top10photosticks.com/static/media/shopping-cart.df0adfc6.svg), linear-gradient(180deg, #7db239, #6e9f34)",
+              "box-shadow": "0 -0.12em 0.125em rgba(0, 0, 0, 0.2)"
+            },
+            ".nice-button__purchase--green:hover": {
+              "border": ".2em solid #87bf3c",
+              "background-color": "#5f8a2d",
+              "background-image": "linear-gradient(180deg, #5f8a2d, #7db239)"
+            },
+            ".nice-button__purchase--green:focus": {
+              "outline": "0",
+              "box-shadow": "0 0 7px #6e9f34"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n<div class=\"row\"><div class=\"col\"><div class=\"product__ribbon\"><div class=\"product__ribbon-title\"><span>✓</span> Updated on May 2020</div><div class=\"product__ribbon-text\">Top Pick</div></div><div class=\"product\"><div class=\"row no-gutters\"><div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/infinitikloud\"><img src=\"https://top10photosticks.com/img/products/photosticks/infinitikloud/infinitikloud.jpg\" class=\"img-fluid\" alt=\"infinitikloud\"></a></div><div class=\"col-12 col-md-6\"><div class=\"row no-gutters product__tile-group\"><div class=\"col product__tile\"><div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label><div class=\"star-ratings\" title=\"4.9 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\"><defs><linearGradient id=\"starGrad467824633731564\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"90%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"90%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop><stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop></linearGradient></defs></svg><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad467824633731564&quot;); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div></div></div></div><div class=\"col product__tile\"><div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label><div class=\"star-ratings\" title=\"4.9 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\"><defs><linearGradient id=\"starGrad329163422817782\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"90%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"90%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop><stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop></linearGradient></defs></svg><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad329163422817782&quot;); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div></div></div><div class=\"product__visitor-count\">(9255)</div><div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div></div><div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label><div class=\"product__price\"><div class=\"price\"><div class=\"price__current\">$49.99</div><del class=\"price__old\">$99.98</del></div></div></div></div><div class=\"row\"><div class=\"col-12 product__feature-list--sm\"><ul class=\"product__feature-list\"><li class=\"product__feature-list-item\">Instantly backs up all of your data with a single click</li><li class=\"product__feature-list-item\">Stores over 50.000 photos (64GB)</li><li class=\"product__feature-list-item\">Keeps your data safe</li><li class=\"product__feature-list-item\">Ultra-high operation</li><li class=\"product__feature-list-item\">Backs up more than one device</li><li class=\"product__feature-list-item\">No complicated software required</li><li class=\"product__feature-list-item\">Compact, clever design</li><li class=\"product__feature-list-item\">Compatible with Mac &amp; Windows</li><li class=\"product__feature-list-item\">Very easy to use</li><li class=\"product__feature-list-item\">Built-in MicroSD card slot</li><li class=\"product__feature-list-item\">Free USB and micro USB adapter</li><li class=\"product__feature-list-item\">30-day money-back guarantee</li><li class=\"product__feature-list-item\">Best value in Canada</li><li class=\"product__feature-list-item product__feature-list-item--red\">Quickly running out of stock</li></ul></div></div></div><div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label><div class=\"product__rating-number\">9.8</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/infinitikloud\">Read Review</a></div></div></div></div></div>    </div>\n</section>",
+          "_cid": "rY27ZitrxU",
+          "_anchor": "content4-3",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".price__current": {
+              "color": "#79ae38",
+              "font-weight": "700",
+              "font-size": ".8em"
+            },
+            ".product": {
+              "background-color": "#fff",
+              "margin-bottom": "3.5rem",
+              "border": "1px solid transparent",
+              "-webkit-transition": "border .1s",
+              "transition": "border .1s"
+            },
+            ".product:hover": {
+              "border": "1px solid rgba(0, 173, 241, 0.8)"
+            },
+            ".product:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "background-color": "transparent",
+              "display": "block",
+              "bottom": "3.5rem",
+              "left": "2rem",
+              "height": "1rem",
+              "width": "calc(100% - 4rem)",
+              "box-shadow": "0 0 2rem rgba(0, 173, 241, 0.3)",
+              "-webkit-transition": "box-shadow 0.25s",
+              "transition": "box-shadow 0.25s",
+              "z-index": "-1"
+            },
+            ".product:hover:after": {
+              "box-shadow": "0 0 2em rgba(0, 173, 241, 0.8)"
+            },
+            ".product__logo": {
+              "border-right": "2px solid #e1e1e1",
+              "padding-right": "0",
+              "min-height": "15em",
+              "text-align": "center"
+            },
+            ".product__logo a": {
+              "position": "relative",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "width": "calc(100% - 1px)",
+              "padding": "1.2em"
+            },
+            ".product__logo a img": {
+              "width": "100%",
+              "max-width": "20em"
+            },
+            ".product__tile": {
+              "text-align": "center",
+              "border-bottom": "2px solid #e1e1e1",
+              "padding-bottom": ".5em"
+            },
+            ".product__tile + .product__tile": {
+              "border-left": "2px solid #e1e1e1"
+            },
+            ".product__tile-label": {
+              "margin-top": "1em",
+              "color": "#bababa",
+              "font-weight": "500"
+            },
+            ".product__visitor-count": {
+              "color": "#bababa",
+              "font-size": ".8em",
+              "font-weight": "300"
+            },
+            ".product__visitor-voted": {
+              "color": "#79ae38",
+              "font-size": ".75em",
+              "font-weight": "300"
+            },
+            ".product__price": {
+              "color": "#79ae38",
+              "font-weight": "700",
+              "font-size": "1.5em",
+              "margin-top": "-0.3em"
+            },
+            ".product__price .price": {
+              "display": "flex",
+              "align-items": "baseline",
+              "justify-content": "center"
+            },
+            ".product__rating": {
+              "text-align": "center",
+              "border-left": "2px solid #e1e1e1",
+              "padding-left": "0"
+            },
+            ".product__rating-number": {
+              "color": "#00aeef",
+              "font-size": "5em",
+              "line-height": "1.1em",
+              "font-weight": "300",
+              "margin-top": ".1em"
+            },
+            ".product__review-link": {
+              "margin-top": ".8em",
+              "margin-bottom": ".8em",
+              "display": "block",
+              "color": "#00aeef",
+              "font-size": "1.1em",
+              "text-decoration": "none",
+              "font-weight": "300"
+            },
+            ".product__review-link:hover": {
+              "color": "#0089bc",
+              "text-decoration": "underline"
+            },
+            ".product__feature-list": {
+              "padding": "2em 1em",
+              "-moz-column-count": "2",
+              "-moz-column-gap": "1em",
+              "-webkit-column-count": "2",
+              "-webkit-column-gap": "1em",
+              "column-count": "2",
+              "grid-column-gap": "1em",
+              "column-gap": "1em",
+              "list-style": "none",
+              "font-size": ".9em"
+            },
+            ".product__feature-list-item": {
+              "position": "relative",
+              "padding-left": "1.8em",
+              "margin-bottom": ".7em"
+            },
+            ".product__feature-list-item:before": {
+              "content": "\"\"",
+              "width": "1.3em",
+              "height": "1.3em",
+              "position": "absolute",
+              "background-size": "90%",
+              "background-image": "url(https://top10photosticks.com/static/media/check-circle.b4dafc68.svg)",
+              "background-repeat": "no-repeat",
+              "left": "0",
+              "top": ".1em"
+            },
+            ".product__feature-list-item--red:before": {
+              "background-image": "url(https://top10photosticks.com/static/media/cross-circle.c0525fd2.svg)"
+            },
+            "@media (max-width: 767.98px)": {
+              ".product": {
+                "border": "none"
+              },
+              ".product__logo": {
+                "border-top": "1px solid #e1e1e1",
+                "border-left": "1px solid #e1e1e1",
+                "border-right": "1px solid #e1e1e1"
+              },
+              ".product__tile": {
+                "border": "none"
+              },
+              ".product__feature-list,.product__tile-group": {
+                "border-top": "1px solid #e1e1e1",
+                "border-left": "1px solid #e1e1e1",
+                "border-right": "1px solid #e1e1e1"
+              },
+              ".product__feature-list": {
+                "margin": "0"
+              },
+              ".product__rating": {
+                "border": "1px solid #e1e1e1"
+              },
+              ".product__star-adjust": {
+                "margin": "auto",
+                "max-width": "5.5em"
+              },
+              ".product__price .price": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "justify-content": "center"
+              }
+            },
+            "*,:after,:before": {
+              "box-sizing": "border-box"
+            },
+            "ul": {
+              "margin-bottom": "1rem",
+              "margin-top": "0"
+            },
+            "a": {
+              "color": "#007bff",
+              "text-decoration": "none",
+              "background-color": "transparent"
+            },
+            "a:hover": {
+              "color": "#0056b3",
+              "text-decoration": "underline"
+            },
+            "img": {
+              "border-style": "none"
+            },
+            "img,svg": {
+              "vertical-align": "middle"
+            },
+            "svg": {
+              "overflow": "hidden"
+            },
+            "label": {
+              "display": "inline-block",
+              "margin-bottom": ".5rem"
+            },
+            "button": {
+              "border-radius": "0",
+              "margin": "0",
+              "font-family": "inherit",
+              "font-size": "inherit",
+              "line-height": "inherit",
+              "overflow": "visible",
+              "text-transform": "none",
+              "-webkit-appearance": "button"
+            },
+            "button:focus": {
+              "outline": "5px auto -webkit-focus-ring-color"
+            },
+            "button::-moz-focus-inner": {
+              "padding": "0",
+              "border-style": "none"
+            },
+            ".img-fluid": {
+              "max-width": "100%",
+              "height": "auto"
+            },
+            ".row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".no-gutters": {
+              "margin-right": "0",
+              "margin-left": "0"
+            },
+            ".no-gutters > .col,.no-gutters > [class*=col-]": {
+              "padding-right": "0",
+              "padding-left": "0"
+            },
+            ".col,.col-12,.col-md-3,.col-md-6": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px"
+            },
+            ".col": {
+              "flex-basis": "0",
+              "flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".col-12": {
+              "flex": "0 0 100%",
+              "max-width": "100%"
+            },
+            "@media (min-width: 768px)": {
+              ".col-md-3": {
+                "flex": "0 0 25%",
+                "max-width": "25%"
+              },
+              ".col-md-6": {
+                "flex": "0 0 50%",
+                "max-width": "50%"
+              }
+            },
+            "@media print": {
+              "*,:after,:before": {
+                "text-shadow": "none!important",
+                "box-shadow": "none!important"
+              },
+              "a:not(.btn)": {
+                "text-decoration": "underline"
+              },
+              "img": {
+                "page-break-inside": "avoid"
+              }
+            },
+            ".nice-button__purchase--green": {
+              "position": "relative",
+              "display": "inline-block",
+              "border": ".2em solid #8bc53e",
+              "box-shadow": "0 0 3px #6e9f34",
+              "border-radius": "100em",
+              "padding": ".3em 3em .3em 1.2em",
+              "text-decoration": "none",
+              "text-shadow": "0.1em 0.1em 1px rgba(0, 0, 0, 0.2)",
+              "font-size": "1.2em",
+              "font-weight": "500",
+              "color": "#fff",
+              "background-color": "#6e9f34",
+              "background-image": "linear-gradient(180deg, #6e9f34, #7db239)",
+              "-webkit-transition": "0.1s ease-in",
+              "transition": "0.1s ease-in"
+            },
+            ".nice-button__purchase--green:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "width": "1.6em",
+              "height": "1.6em",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "right": ".5em",
+              "color": "#fff",
+              "border-radius": "50%",
+              "border": ".18em solid #fff",
+              "background-position": "50%,50%",
+              "background-repeat": "no-repeat",
+              "background-size": "60%,cover",
+              "background-image": "url(https://top10photosticks.com/static/media/shopping-cart.df0adfc6.svg), linear-gradient(180deg, #7db239, #6e9f34)",
+              "box-shadow": "0 -0.12em 0.125em rgba(0, 0, 0, 0.2)"
+            },
+            ".nice-button__purchase--green:hover": {
+              "border": ".2em solid #87bf3c",
+              "background-color": "#5f8a2d",
+              "background-image": "linear-gradient(180deg, #5f8a2d, #7db239)"
+            },
+            ".nice-button__purchase--green:focus": {
+              "outline": "0",
+              "box-shadow": "0 0 7px #6e9f34"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n<div class=\"row\"><div class=\"col\"><div class=\"product\"><div class=\"row no-gutters\"><div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/thephotostick\"><img src=\"https://top10photosticks.com/img/products/photosticks/thephotostick/thephotostick.jpg\" class=\"img-fluid\" alt=\"thephotostick\"></a></div><div class=\"col-12 col-md-6\"><div class=\"row no-gutters product__tile-group\"><div class=\"col product__tile\"><div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label><div class=\"star-ratings\" title=\"4.8 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\"><defs><linearGradient id=\"starGrad820491014466410\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"80%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"80%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop><stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop></linearGradient></defs></svg><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad820491014466410&quot;); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div></div></div></div><div class=\"col product__tile\"><div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label><div class=\"star-ratings\" title=\"4.8 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\"><defs><linearGradient id=\"starGrad628044903645191\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"80%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"80%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop><stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop></linearGradient></defs></svg><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad628044903645191&quot;); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div></div></div><div class=\"product__visitor-count\">(8960)</div><div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div></div><div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label><div class=\"product__price\"><div class=\"price\"><div class=\"price__current\">$69.69</div></div></div></div></div><div class=\"row\"><div class=\"col-12 product__feature-list--sm\"><ul class=\"product__feature-list\"><li class=\"product__feature-list-item\">Automatically backs up your files in one click</li><li class=\"product__feature-list-item\">Stores 30.000+ photos and videos (64GB)</li><li class=\"product__feature-list-item\">Organizes your files for you</li><li class=\"product__feature-list-item\">Ultra-high speed</li><li class=\"product__feature-list-item\">On-going weekly backups</li><li class=\"product__feature-list-item\">No software to install</li><li class=\"product__feature-list-item\">Filters out and removes duplicates</li><li class=\"product__feature-list-item\">No cables needed</li><li class=\"product__feature-list-item\">Compatible with MacOS, Windows, iOS, Android</li><li class=\"product__feature-list-item\">Super easy to use</li><li class=\"product__feature-list-item\">Good value for money</li><li class=\"product__feature-list-item\">Free shipping</li><li class=\"product__feature-list-item product__feature-list-item--red\">Promotion ends soon</li></ul></div></div></div><div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label><div class=\"product__rating-number\">9.6</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/thephotostick\">Read Review</a></div></div></div></div></div>    </div>\n</section>",
+          "_cid": "rY29BVlZ3u",
+          "_anchor": "content4-4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".price__current": {
+              "color": "#79ae38",
+              "font-weight": "700",
+              "font-size": ".8em"
+            },
+            ".product": {
+              "background-color": "#fff",
+              "margin-bottom": "3.5rem",
+              "border": "1px solid transparent",
+              "-webkit-transition": "border .1s",
+              "transition": "border .1s"
+            },
+            ".product:hover": {
+              "border": "1px solid rgba(0, 173, 241, 0.8)"
+            },
+            ".product:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "background-color": "transparent",
+              "display": "block",
+              "bottom": "3.5rem",
+              "left": "2rem",
+              "height": "1rem",
+              "width": "calc(100% - 4rem)",
+              "box-shadow": "0 0 2rem rgba(0, 173, 241, 0.3)",
+              "-webkit-transition": "box-shadow 0.25s",
+              "transition": "box-shadow 0.25s",
+              "z-index": "-1"
+            },
+            ".product:hover:after": {
+              "box-shadow": "0 0 2em rgba(0, 173, 241, 0.8)"
+            },
+            ".product__logo": {
+              "border-right": "2px solid #e1e1e1",
+              "padding-right": "0",
+              "min-height": "15em",
+              "text-align": "center"
+            },
+            ".product__logo a": {
+              "position": "relative",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "width": "calc(100% - 1px)",
+              "padding": "1.2em"
+            },
+            ".product__logo a img": {
+              "width": "100%",
+              "max-width": "20em"
+            },
+            ".product__tile": {
+              "text-align": "center",
+              "border-bottom": "2px solid #e1e1e1",
+              "padding-bottom": ".5em"
+            },
+            ".product__tile + .product__tile": {
+              "border-left": "2px solid #e1e1e1"
+            },
+            ".product__tile-label": {
+              "margin-top": "1em",
+              "color": "#bababa",
+              "font-weight": "500"
+            },
+            ".product__visitor-count": {
+              "color": "#bababa",
+              "font-size": ".8em",
+              "font-weight": "300"
+            },
+            ".product__visitor-voted": {
+              "color": "#79ae38",
+              "font-size": ".75em",
+              "font-weight": "300"
+            },
+            ".product__price": {
+              "color": "#79ae38",
+              "font-weight": "700",
+              "font-size": "1.5em",
+              "margin-top": "-0.3em"
+            },
+            ".product__price .price": {
+              "display": "flex",
+              "align-items": "baseline",
+              "justify-content": "center"
+            },
+            ".product__rating": {
+              "text-align": "center",
+              "border-left": "2px solid #e1e1e1",
+              "padding-left": "0"
+            },
+            ".product__rating-number": {
+              "color": "#00aeef",
+              "font-size": "5em",
+              "line-height": "1.1em",
+              "font-weight": "300",
+              "margin-top": ".1em"
+            },
+            ".product__review-link": {
+              "margin-top": ".8em",
+              "margin-bottom": ".8em",
+              "display": "block",
+              "color": "#00aeef",
+              "font-size": "1.1em",
+              "text-decoration": "none",
+              "font-weight": "300"
+            },
+            ".product__review-link:hover": {
+              "color": "#0089bc",
+              "text-decoration": "underline"
+            },
+            ".product__feature-list": {
+              "padding": "2em 1em",
+              "-moz-column-count": "2",
+              "-moz-column-gap": "1em",
+              "-webkit-column-count": "2",
+              "-webkit-column-gap": "1em",
+              "column-count": "2",
+              "grid-column-gap": "1em",
+              "column-gap": "1em",
+              "list-style": "none",
+              "font-size": ".9em"
+            },
+            ".product__feature-list-item": {
+              "position": "relative",
+              "padding-left": "1.8em",
+              "margin-bottom": ".7em"
+            },
+            ".product__feature-list-item:before": {
+              "content": "\"\"",
+              "width": "1.3em",
+              "height": "1.3em",
+              "position": "absolute",
+              "background-size": "90%",
+              "background-image": "url(https://top10photosticks.com/static/media/check-circle.b4dafc68.svg)",
+              "background-repeat": "no-repeat",
+              "left": "0",
+              "top": ".1em"
+            },
+            ".product__feature-list-item--red:before": {
+              "background-image": "url(https://top10photosticks.com/static/media/cross-circle.c0525fd2.svg)"
+            },
+            "@media (max-width: 767.98px)": {
+              ".product": {
+                "border": "none"
+              },
+              ".product__logo": {
+                "border-top": "1px solid #e1e1e1",
+                "border-left": "1px solid #e1e1e1",
+                "border-right": "1px solid #e1e1e1"
+              },
+              ".product__tile": {
+                "border": "none"
+              },
+              ".product__feature-list,.product__tile-group": {
+                "border-top": "1px solid #e1e1e1",
+                "border-left": "1px solid #e1e1e1",
+                "border-right": "1px solid #e1e1e1"
+              },
+              ".product__feature-list": {
+                "margin": "0"
+              },
+              ".product__rating": {
+                "border": "1px solid #e1e1e1"
+              },
+              ".product__star-adjust": {
+                "margin": "auto",
+                "max-width": "5.5em"
+              },
+              ".product__price .price": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "justify-content": "center"
+              }
+            },
+            "*,:after,:before": {
+              "box-sizing": "border-box"
+            },
+            "ul": {
+              "margin-bottom": "1rem",
+              "margin-top": "0"
+            },
+            "a": {
+              "color": "#007bff",
+              "text-decoration": "none",
+              "background-color": "transparent"
+            },
+            "a:hover": {
+              "color": "#0056b3",
+              "text-decoration": "underline"
+            },
+            "img": {
+              "border-style": "none"
+            },
+            "img,svg": {
+              "vertical-align": "middle"
+            },
+            "svg": {
+              "overflow": "hidden"
+            },
+            "label": {
+              "display": "inline-block",
+              "margin-bottom": ".5rem"
+            },
+            "button": {
+              "border-radius": "0",
+              "margin": "0",
+              "font-family": "inherit",
+              "font-size": "inherit",
+              "line-height": "inherit",
+              "overflow": "visible",
+              "text-transform": "none",
+              "-webkit-appearance": "button"
+            },
+            "button:focus": {
+              "outline": "5px auto -webkit-focus-ring-color"
+            },
+            "button::-moz-focus-inner": {
+              "padding": "0",
+              "border-style": "none"
+            },
+            ".img-fluid": {
+              "max-width": "100%",
+              "height": "auto"
+            },
+            ".row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".no-gutters": {
+              "margin-right": "0",
+              "margin-left": "0"
+            },
+            ".no-gutters > .col,.no-gutters > [class*=col-]": {
+              "padding-right": "0",
+              "padding-left": "0"
+            },
+            ".col,.col-12,.col-md-3,.col-md-6": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px"
+            },
+            ".col": {
+              "flex-basis": "0",
+              "flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".col-12": {
+              "flex": "0 0 100%",
+              "max-width": "100%"
+            },
+            "@media (min-width: 768px)": {
+              ".col-md-3": {
+                "flex": "0 0 25%",
+                "max-width": "25%"
+              },
+              ".col-md-6": {
+                "flex": "0 0 50%",
+                "max-width": "50%"
+              }
+            },
+            "@media print": {
+              "*,:after,:before": {
+                "text-shadow": "none!important",
+                "box-shadow": "none!important"
+              },
+              "a:not(.btn)": {
+                "text-decoration": "underline"
+              },
+              "img": {
+                "page-break-inside": "avoid"
+              }
+            },
+            ".nice-button__purchase--green": {
+              "position": "relative",
+              "display": "inline-block",
+              "border": ".2em solid #8bc53e",
+              "box-shadow": "0 0 3px #6e9f34",
+              "border-radius": "100em",
+              "padding": ".3em 3em .3em 1.2em",
+              "text-decoration": "none",
+              "text-shadow": "0.1em 0.1em 1px rgba(0, 0, 0, 0.2)",
+              "font-size": "1.2em",
+              "font-weight": "500",
+              "color": "#fff",
+              "background-color": "#6e9f34",
+              "background-image": "linear-gradient(180deg, #6e9f34, #7db239)",
+              "-webkit-transition": "0.1s ease-in",
+              "transition": "0.1s ease-in"
+            },
+            ".nice-button__purchase--green:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "width": "1.6em",
+              "height": "1.6em",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "right": ".5em",
+              "color": "#fff",
+              "border-radius": "50%",
+              "border": ".18em solid #fff",
+              "background-position": "50%,50%",
+              "background-repeat": "no-repeat",
+              "background-size": "60%,cover",
+              "background-image": "url(https://top10photosticks.com/static/media/shopping-cart.df0adfc6.svg), linear-gradient(180deg, #7db239, #6e9f34)",
+              "box-shadow": "0 -0.12em 0.125em rgba(0, 0, 0, 0.2)"
+            },
+            ".nice-button__purchase--green:hover": {
+              "border": ".2em solid #87bf3c",
+              "background-color": "#5f8a2d",
+              "background-image": "linear-gradient(180deg, #5f8a2d, #7db239)"
+            },
+            ".nice-button__purchase--green:focus": {
+              "outline": "0",
+              "box-shadow": "0 0 7px #6e9f34"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n<div class=\"row\"><div class=\"col\"><div class=\"product\"><div class=\"row no-gutters\"><div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/memorysafe\"><img src=\"https://top10photosticks.com/img/products/photosticks/memorysafe/memorysafe.jpg\" class=\"img-fluid\" alt=\"memorysafe\"></a></div><div class=\"col-12 col-md-6\"><div class=\"row no-gutters product__tile-group\"><div class=\"col product__tile\"><div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label><div class=\"star-ratings\" title=\"4.55 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\"><defs><linearGradient id=\"starGrad989527888417269\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"55%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"55%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop><stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop></linearGradient></defs></svg><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad989527888417269&quot;); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div></div></div></div><div class=\"col product__tile\"><div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label><div class=\"star-ratings\" title=\"4.45 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\"><defs><linearGradient id=\"starGrad555157044685681\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"45%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop><stop offset=\"45%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop><stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop></linearGradient></defs></svg><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div><div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\"><path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad555157044685681&quot;); transition: fill 0.2s ease-in-out 0s;\"></path></svg></div></div></div><div class=\"product__visitor-count\">(8001)</div><div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div></div><div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label><div class=\"product__price\"><div class=\"price\"><div class=\"price__current\">$83</div></div></div></div></div><div class=\"row\"><div class=\"col-12 product__feature-list--sm\"><ul class=\"product__feature-list\"><li class=\"product__feature-list-item\">Instantly backs up your photos and videos</li><li class=\"product__feature-list-item\">Easy to use - plug and play</li><li class=\"product__feature-list-item\">Backs up directly from your phone</li><li class=\"product__feature-list-item\">Large capacity</li><li class=\"product__feature-list-item\">Deletes duplicates to safe space</li><li class=\"product__feature-list-item\">iOS and Android compatible</li><li class=\"product__feature-list-item\">Super quick</li><li class=\"product__feature-list-item\">A great alternative to cloud storages and hard drives</li><li class=\"product__feature-list-item\">Safe and secure transfer</li><li class=\"product__feature-list-item\">Sleek, minimalist design</li><li class=\"product__feature-list-item product__feature-list-item--red\">Tricky interface sometimes</li></ul></div></div></div><div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label><div class=\"product__rating-number\">9.1</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/memorysafe\">Read Review</a></div></div></div></div></div>    </div>\n</section>\n",
+          "_cid": "rY2aIL1ktx",
+          "_anchor": "content4-5",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".price__current": {
+              "color": "#79ae38",
+              "font-weight": "700",
+              "font-size": "0.8em"
+            },
+            ".product": {
+              "background-color": "#fff",
+              "margin-bottom": "3.5rem",
+              "border": "1px solid transparent",
+              "-webkit-transition": "border 0.1s",
+              "transition": "border 0.1s"
+            },
+            ".product:hover": {
+              "border": "1px solid rgba(0, 173, 241, 0.8)"
+            },
+            ".product:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "background-color": "transparent",
+              "display": "block",
+              "bottom": "3.5rem",
+              "left": "2rem",
+              "height": "1rem",
+              "width": "calc(100% - 4rem)",
+              "box-shadow": "0 0 2rem rgba(0, 173, 241, 0.3)",
+              "-webkit-transition": "box-shadow 0.25s",
+              "transition": "box-shadow 0.25s",
+              "z-index": "-1"
+            },
+            ".product:hover:after": {
+              "box-shadow": "0 0 2em rgba(0, 173, 241, 0.8)"
+            },
+            ".product__logo": {
+              "border-right": "2px solid #e1e1e1",
+              "padding-right": "0",
+              "min-height": "15em",
+              "text-align": "center"
+            },
+            ".product__logo a": {
+              "position": "relative",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "width": "calc(100% - 1px)",
+              "padding": "1.2em"
+            },
+            ".product__logo a img": {
+              "width": "100%",
+              "max-width": "20em"
+            },
+            ".product__tile": {
+              "text-align": "center",
+              "border-bottom": "2px solid #e1e1e1",
+              "padding-bottom": "0.5em"
+            },
+            ".product__tile + .product__tile": {
+              "border-left": "2px solid #e1e1e1"
+            },
+            ".product__tile-label": {
+              "margin-top": "1em",
+              "color": "#bababa",
+              "font-weight": "500"
+            },
+            ".product__visitor-count": {
+              "color": "#bababa",
+              "font-size": "0.8em",
+              "font-weight": "300"
+            },
+            ".product__visitor-voted": {
+              "color": "#79ae38",
+              "font-size": "0.75em",
+              "font-weight": "300"
+            },
+            ".product__price": {
+              "color": "#79ae38",
+              "font-weight": "700",
+              "font-size": "1.5em",
+              "margin-top": "-0.3em"
+            },
+            ".product__price .price": {
+              "display": "flex",
+              "align-items": "baseline",
+              "justify-content": "center"
+            },
+            ".product__rating": {
+              "text-align": "center",
+              "border-left": "2px solid #e1e1e1",
+              "padding-left": "0"
+            },
+            ".product__rating-number": {
+              "color": "#00aeef",
+              "font-size": "5em",
+              "line-height": "1.1em",
+              "font-weight": "300",
+              "margin-top": "0.1em"
+            },
+            ".product__review-link": {
+              "margin-top": "0.8em",
+              "margin-bottom": "0.8em",
+              "display": "block",
+              "color": "#00aeef",
+              "font-size": "1.1em",
+              "text-decoration": "none",
+              "font-weight": "300"
+            },
+            ".product__review-link:hover": {
+              "color": "#0089bc",
+              "text-decoration": "underline"
+            },
+            ".product__feature-list": {
+              "padding": "2em 1em",
+              "-moz-column-count": "2",
+              "-moz-column-gap": "1em",
+              "-webkit-column-count": "2",
+              "-webkit-column-gap": "1em",
+              "column-count": "2",
+              "grid-column-gap": "1em",
+              "column-gap": "1em",
+              "list-style": "none",
+              "font-size": "0.9em"
+            },
+            ".product__feature-list-item": {
+              "position": "relative",
+              "padding-left": "1.8em",
+              "margin-bottom": "0.7em"
+            },
+            ".product__feature-list-item:before": {
+              "content": "\"\"",
+              "width": "1.3em",
+              "height": "1.3em",
+              "position": "absolute",
+              "background-size": "90%",
+              "background-image": "url(https://top10photosticks.com/static/media/check-circle.b4dafc68.svg)",
+              "background-repeat": "no-repeat",
+              "left": "0",
+              "top": "0.1em"
+            },
+            ".product__feature-list-item--red:before": {
+              "background-image": "url(https://top10photosticks.com/static/media/cross-circle.c0525fd2.svg)"
+            },
+            "@media (max-width: 767.98px)": {
+              ".product": {
+                "border": "none"
+              },
+              ".product__logo": {
+                "border-top": "1px solid #e1e1e1",
+                "border-left": "1px solid #e1e1e1",
+                "border-right": "1px solid #e1e1e1"
+              },
+              ".product__tile": {
+                "border": "none"
+              },
+              ".product__feature-list, .product__tile-group": {
+                "border-top": "1px solid #e1e1e1",
+                "border-left": "1px solid #e1e1e1",
+                "border-right": "1px solid #e1e1e1"
+              },
+              ".product__feature-list": {
+                "margin": "0"
+              },
+              ".product__rating": {
+                "border": "1px solid #e1e1e1"
+              },
+              ".product__star-adjust": {
+                "margin": "auto",
+                "max-width": "5.5em"
+              },
+              ".product__price .price": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "justify-content": "center"
+              }
+            },
+            "*, :after, :before": {
+              "box-sizing": "border-box"
+            },
+            "ul": {
+              "margin-bottom": "1rem",
+              "margin-top": "0"
+            },
+            "a": {
+              "color": "#007bff",
+              "text-decoration": "none",
+              "background-color": "transparent"
+            },
+            "a:hover": {
+              "color": "#0056b3",
+              "text-decoration": "underline"
+            },
+            "img": {
+              "border-style": "none"
+            },
+            "img, svg": {
+              "vertical-align": "middle"
+            },
+            "svg": {
+              "overflow": "hidden"
+            },
+            "label": {
+              "display": "inline-block",
+              "margin-bottom": "0.5rem"
+            },
+            "button": {
+              "border-radius": "0",
+              "margin": "0",
+              "font-family": "inherit",
+              "font-size": "inherit",
+              "line-height": "inherit",
+              "overflow": "visible",
+              "text-transform": "none",
+              "-webkit-appearance": "button"
+            },
+            "button:focus": {
+              "outline": "5px auto -webkit-focus-ring-color"
+            },
+            "button::-moz-focus-inner": {
+              "padding": "0",
+              "border-style": "none"
+            },
+            ".img-fluid": {
+              "max-width": "100%",
+              "height": "auto"
+            },
+            ".row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".no-gutters": {
+              "margin-right": "0",
+              "margin-left": "0"
+            },
+            ".no-gutters > .col, .no-gutters > [class*=\"col-\"]": {
+              "padding-right": "0",
+              "padding-left": "0"
+            },
+            ".col, .col-12, .col-md-3, .col-md-6": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px"
+            },
+            ".col": {
+              "flex-basis": "0",
+              "flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".col-12": {
+              "flex": "0 0 100%",
+              "max-width": "100%"
+            },
+            "@media (min-width: 768px)": {
+              ".col-md-3": {
+                "flex": "0 0 25%",
+                "max-width": "25%"
+              },
+              ".col-md-6": {
+                "flex": "0 0 50%",
+                "max-width": "50%"
+              }
+            },
+            "@media print": {
+              "*, :after, :before": {
+                "text-shadow": "none !important",
+                "box-shadow": "none !important"
+              },
+              "a:not(.btn)": {
+                "text-decoration": "underline"
+              },
+              "img": {
+                "page-break-inside": "avoid"
+              }
+            },
+            ".nice-button__purchase--green": {
+              "position": "relative",
+              "display": "inline-block",
+              "border": "0.2em solid #8bc53e",
+              "box-shadow": "0 0 3px #6e9f34",
+              "border-radius": "100em",
+              "padding": "0.3em 3em 0.3em 1.2em",
+              "text-decoration": "none",
+              "text-shadow": "0.1em 0.1em 1px rgba(0, 0, 0, 0.2)",
+              "font-size": "1.2em",
+              "font-weight": "500",
+              "color": "#fff",
+              "background-color": "#6e9f34",
+              "background-image": "linear-gradient(180deg, #6e9f34, #7db239)",
+              "-webkit-transition": "0.1s ease-in",
+              "transition": "0.1s ease-in"
+            },
+            ".nice-button__purchase--green:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "width": "1.6em",
+              "height": "1.6em",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "right": "0.5em",
+              "color": "#fff",
+              "border-radius": "50%",
+              "border": "0.18em solid #fff",
+              "background-position": "50%, 50%",
+              "background-repeat": "no-repeat",
+              "background-size": "60%, cover",
+              "background-image": "url(https://top10photosticks.com/static/media/shopping-cart.df0adfc6.svg), linear-gradient(180deg, #7db239, #6e9f34)",
+              "box-shadow": "0 -0.12em 0.125em rgba(0, 0, 0, 0.2)"
+            },
+            ".nice-button__purchase--green:hover": {
+              "border": "0.2em solid #87bf3c",
+              "background-color": "#5f8a2d",
+              "background-image": "linear-gradient(180deg, #5f8a2d, #7db239)"
+            },
+            ".nice-button__purchase--green:focus": {
+              "outline": "0",
+              "box-shadow": "0 0 7px #6e9f34"
+            },
+            ".collapsible__toggle": {
+              "border-bottom": "3px solid #bfcbd6",
+              "color": "#e1e1e1",
+              "cursor": "pointer"
+            },
+            ".collapsible__toggle:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "color": "#e1e1e1",
+              "width": "3rem",
+              "height": "3rem",
+              "-webkit-transform": "translate(-50%, -50%) rotate(180deg)",
+              "transform": "translate(-50%, -50%) rotate(180deg)",
+              "left": "50%",
+              "background-image": "url(https://top10photosticks.com/static/media/chevron.ef484b5a.svg)",
+              "background-size": "contain",
+              "background-color": "#f0f4f8",
+              "border": "none",
+              "border-radius": "100%",
+              "-webkit-transition": "0.25s",
+              "transition": "0.25s"
+            },
+            ".collapsible__toggle:hover:after": {
+              "box-shadow": "0 0 7px rgba(0, 0, 0, 0.2)"
+            },
+            ".collapsible__toggle-label": {
+              "text-align": "center",
+              "font-size": "1.5rem",
+              "font-weight": "300",
+              "margin": "1.5rem 0"
+            },
+            ".collapsible__content": {
+              "overflow": "hidden"
+            },
+            ".collapsible__content-inner": {
+              "min-height": "20rem"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n<div class=\"collapsible\">\n\t<div class=\"collapsible__content\" style=\"overflow: hidden; display: none;\">\n\t\t<div class=\"collapsible__content-inner\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"product\">\n\t\t\t\t\t\t<div class=\"row no-gutters\">\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/picturekeeper\"><img src=\"https://top10photosticks.com/img/products/photosticks/picturekeeper/picturekeeper.jpg\" class=\"img-fluid\" alt=\"picturekeeper\"></a></div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"row no-gutters product__tile-group\">\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.5 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad266551520420701\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"50%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"50%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad266551520420701&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.45 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad097951868172966\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"45%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"45%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad097951868172966&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-count\">(7693)</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__price\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"price__current\">$69.63</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-12 product__feature-list--sm\">\n\t\t\t\t\t\t\t\t\t\t<ul class=\"product__feature-list\">\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Simple and fast back up of your files</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Mac and PC compatible</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Free software included</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Ability to pick up where you left off</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Backup reminders</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Keeps files safe and secure</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Skips duplicates</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Tiny and lightweight</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Easy to use</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item product__feature-list-item--red\">Pricy</li>\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label>\n\t\t\t\t\t\t\t\t<div class=\"product__rating-number\">9</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/picturekeeper\">Read Review</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"product\">\n\t\t\t\t\t\t<div class=\"row no-gutters\">\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/photobackupstick\"><img src=\"https://top10photosticks.com/img/products/photosticks/photobackupstick/photobackupstick.jpg\" class=\"img-fluid\" alt=\"photobackupstick\"></a></div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"row no-gutters product__tile-group\">\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.45 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad194416335279225\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"45%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"45%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad194416335279225&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.45 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad526140890271821\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"45%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"45%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad526140890271821&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-count\">(6988)</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__price\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"price__current\">$83.51</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-12 product__feature-list--sm\">\n\t\t\t\t\t\t\t\t\t\t<ul class=\"product__feature-list\">\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Backs up from computers, phones &amp; tablets</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Keeps photos in their original folders</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Skips duplicates</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Fast transfer</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Includes backup app</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">No additional storage fees</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Back up multiple devices with one stick</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Compatible with Windows, Android, iOS</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Free phone, email, and online support</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item product__feature-list-item--red\">Pricy</li>\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label>\n\t\t\t\t\t\t\t\t<div class=\"product__rating-number\">8.9</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/photobackupstick\">Read Review</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"product\">\n\t\t\t\t\t\t<div class=\"row no-gutters\">\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/wivic\"><img src=\"https://top10photosticks.com/img/products/photosticks/wivic/wivic.jpg\" class=\"img-fluid\" alt=\"wivic\"></a></div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"row no-gutters product__tile-group\">\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.35 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad227344459517631\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"35%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"35%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad227344459517631&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.35 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad831951190005461\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"35%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"35%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad831951190005461&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-count\">(6200)</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__price\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"price__current\">$55.68</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-12 product__feature-list--sm\">\n\t\t\t\t\t\t\t\t\t\t<ul class=\"product__feature-list\">\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Quickly backs up files from any of your devices</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Uses password protection</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Intelligent app</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">4in1 port for other devices</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Fast transfer</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Available in multiple colors</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Supports all data formats</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Convenient design</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Easy to use</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item product__feature-list-item--red\">Not compatible with iPad Pro</li>\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label>\n\t\t\t\t\t\t\t\t<div class=\"product__rating-number\">8.7</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/wivic\">Read Review</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"product\">\n\t\t\t\t\t\t<div class=\"row no-gutters\">\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/idiskk\"><img src=\"https://top10photosticks.com/img/products/photosticks/idiskk/idiskk.jpg\" class=\"img-fluid\" alt=\"idiskk\"></a></div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"row no-gutters product__tile-group\">\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.3 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad188086971145816\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"30%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"30%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad188086971145816&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.3 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad061473717622852\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"30%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"30%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad061473717622852&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-count\">(5463)</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__price\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"price__current\">$55.42</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-12 product__feature-list--sm\">\n\t\t\t\t\t\t\t\t\t\t<ul class=\"product__feature-list\">\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Automatic photo and video backup</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Fast and reliable</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Password and Touch ID protected</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Windows, iOS compatible</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Large capacity</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Allows to watch movies directly from the flash drive</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Small size, easy to carry</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Easy to use</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item product__feature-list-item--red\">Not compatible with Android</li>\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label>\n\t\t\t\t\t\t\t\t<div class=\"product__rating-number\">8.6</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/idiskk\">Read Review</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"product\">\n\t\t\t\t\t\t<div class=\"row no-gutters\">\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/sandisk\"><img src=\"https://top10photosticks.com/img/products/photosticks/sandisk/sandisk.jpg\" class=\"img-fluid\" alt=\"sandisk\"></a></div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"row no-gutters product__tile-group\">\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.25 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad486487181421986\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"25%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"25%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad486487181421986&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.25 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad730443094756490\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"25%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"25%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad730443094756490&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-count\">(4900)</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__price\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"price__current\">$80.15</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-12 product__feature-list--sm\">\n\t\t\t\t\t\t\t\t\t\t<ul class=\"product__feature-list\">\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Automatically backs up photos and videos</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Password protection</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">App for content management</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Different style options</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Operating temperature 0пїЅC to 35пїЅC</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">USB type A</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Easy to use</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item product__feature-list-item--red\">Reliability issues</li>\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label>\n\t\t\t\t\t\t\t\t<div class=\"product__rating-number\">8.5</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/sandisk\">Read Review</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"product\">\n\t\t\t\t\t\t<div class=\"row no-gutters\">\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/qarfee\"><img src=\"https://top10photosticks.com/img/products/photosticks/qarfee/qarfee.jpg\" class=\"img-fluid\" alt=\"qarfee\"></a></div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"row no-gutters product__tile-group\">\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.15 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad787129648009867\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"15%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"15%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad787129648009867&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.15 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad679979665867178\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"15%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"15%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad679979665867178&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-count\">(4001)</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__price\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"price__current\">$47.34</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-12 product__feature-list--sm\">\n\t\t\t\t\t\t\t\t\t\t<ul class=\"product__feature-list\">\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">One-click backup</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Fast and stable transmission</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Large capacity</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Password protection, Touch ID</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">4in1 compatibility</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Watch videos and listen to music directly</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Y-disk app for smartphone</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item product__feature-list-item--red\">Difficult setup</li>\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label>\n\t\t\t\t\t\t\t\t<div class=\"product__rating-number\">8.3</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/qarfee\">Read Review</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"product\">\n\t\t\t\t\t\t<div class=\"row no-gutters\">\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__logo\"><a class=\"product__review-link\" href=\"/ca/review/pny\"><img src=\"https://top10photosticks.com/img/products/photosticks/pny/pny.jpg\" class=\"img-fluid\" alt=\"pny\"></a></div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"row no-gutters product__tile-group\">\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Our rating</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.05 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad249120991830118\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"05%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"05%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad249120991830118&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__star-adjust\"><label class=\"product__tile-label\">Visitors</label>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-ratings\" title=\"4.05 Stars\" style=\"position: relative; box-sizing: border-box; display: inline-block;\"><svg class=\"star-grad\" style=\"position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<defs>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<linearGradient id=\"starGrad421115991709087\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"0%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"05%\" class=\"stop-color-first\" style=\"stop-color: rgb(250, 202, 18); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"05%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<stop offset=\"100%\" class=\"stop-color-final\" style=\"stop-color: rgb(194, 194, 194); stop-opacity: 1;\"></stop>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</linearGradient>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</defs>\n\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; padding-right: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: rgb(250, 202, 18); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"star-container\" style=\"position: relative; display: inline-block; vertical-align: middle; padding-left: 0.05em; cursor: pointer;\"><svg viewBox=\"0 0 51 48\" class=\"widget-svg multi-widget-selected\" style=\"width: 1.65em; height: 1.65em; transition: transform 0.2s ease-in-out 0s;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path class=\"star\" d=\"m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z\" style=\"fill: url(&quot;#starGrad421115991709087&quot;); transition: fill 0.2s ease-in-out 0s;\"></path>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</svg></div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-count\">(3905)</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__visitor-voted\" style=\"display: none;\">Your feedback accepted</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col product__tile\"><label class=\"product__tile-label\">Price</label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"product__price\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"price\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"price__current\">$55.76</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-12 product__feature-list--sm\">\n\t\t\t\t\t\t\t\t\t\t<ul class=\"product__feature-list\">\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Frees up space quick</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Backs up all of your digital content</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Automatic/manual modes</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Ability to charge iOS devices</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Access and stream your data anytime</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Sync and share content between devices</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Easy setup</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item\">Compact design</li>\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"product__feature-list-item product__feature-list-item--red\">Can't transfer word documents from iPad</li>\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-12 col-md-3 product__rating\"><label class=\"product__tile-label\">Rating</label>\n\t\t\t\t\t\t\t\t<div class=\"product__rating-number\">8.1</div><button class=\"nice-button__purchase--green\">Buy Now</button><a class=\"product__review-link\" href=\"/ca/review/pny\">Read Review</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"collapsible__toggle\"></div>\n\t<div class=\"collapsible__toggle-label\">Open the entire list</div>\n</div>\n    </div>\n</section>\n",
+          "_cid": "rY2b9oAomm",
+          "_anchor": "content4-6",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".footer": {
+              "margin-top": "5rem",
+              "text-align": "center"
+            },
+            ".footer__link": {
+              "color": "#000",
+              "font-weight": "500",
+              "text-decoration": "none",
+              "white-space": "nowrap"
+            },
+            ".footer__link:hover": {
+              "text-decoration": "underline"
+            },
+            ".footer__copyright": {
+              "margin": "1rem 0 3rem",
+              "font-size": "0.9em"
+            },
+            "*, :after, :before": {
+              "box-sizing": "border-box"
+            },
+            "footer": {
+              "display": "block"
+            },
+            "a": {
+              "color": "#007bff",
+              "text-decoration": "none",
+              "background-color": "transparent"
+            },
+            "a:hover": {
+              "color": "#0056b3",
+              "text-decoration": "underline"
+            },
+            ".container": {
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "margin-right": "auto",
+              "margin-left": "auto"
+            },
+            "@media (min-width: 576px)": {
+              ".container": {
+                "max-width": "540px"
+              }
+            },
+            "@media (min-width: 768px)": {
+              ".container": {
+                "max-width": "720px"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".container": {
+                "max-width": "960px"
+              }
+            },
+            "@media (min-width: 1200px)": {
+              ".container": {
+                "max-width": "1200px"
+              }
+            },
+            ".row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".col-12": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "flex": "0 0 100%",
+              "max-width": "100%"
+            },
+            "@media print": {
+              "*, :after, :before": {
+                "text-shadow": "none !important",
+                "box-shadow": "none !important"
+              },
+              "a:not(.btn)": {
+                "text-decoration": "underline"
+              },
+              ".container": {
+                "min-width": "992px !important"
+              }
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n<div class=\"container\">\n\t<footer class=\"row footer\">\n\t\t<div class=\"col-12\"><a class=\"footer__link\" href=\"/ca/about\">About Us</a><span> | </span><a class=\"footer__link\" href=\"/ca/advertiser-disclosure\">Advertiser Disclosure</a><span> | </span><a class=\"footer__link\" href=\"/ca/terms\">Terms of Use</a><span> | </span><a class=\"footer__link\" href=\"/ca/privacy-policy\">Privacy Policy</a><span> | </span><a class=\"footer__link\" href=\"/ca/contact\">Contact Us</a></div>\n\t\t<div class=\"col-12 footer__copyright\">© 2020 TOP 10 Photo Sticks</div>\n\t</footer>\n</div>\n    </div>\n</section>\n",
+          "_cid": "rY2bRcshZY",
+          "_anchor": "content4-7",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
